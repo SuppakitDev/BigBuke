@@ -1,0 +1,159 @@
+body {
+    width: 85%;
+    padding-left: 7.5%;
+    background-image: url(../image/Hi-Tech-Wallpaper-12.jpg);
+    background-repeat: round;/*กำหนดให้ภาพปรับให้มีขนาดพอดี เต็มจอของ browser*/
+
+}
+main { /*เป็น selector เพื่อเลือก main element ที่อยู่ใน html */
+display: flex; /*ทำการประกาศใช้รูปแบบ flex เพื่อจัดการตำแห่นง element ที่อยู่ภายใน element main*/
+}
+.n2{
+border-bottom: 5px solid rgba(11, 253, 225, 0.46); 
+border-radius: 20%;
+}
+header{
+    display: flex; /*ทำการประกาศใช้รูปแบบ flex เพื่อจัดการตำแห่นง element ที่อยู่ภายใน */
+    background-image: url(../image/22j7-6.jpg);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top-right-radius:50%;
+
+        }
+#navi ul{
+list-style: none;
+margin: 0;
+padding: 0;
+margin-left: 2%;
+}
+#navi li{
+display: inline;
+}
+#navi a:link,#navi a:visited{
+border-left: 12px solid #b0c60b;
+background-color: rgba(4, 253, 177, 0.17);
+padding-top: 4%;
+padding-left: 0.5%;
+padding-right: 0.5%;    
+padding-bottom: 0%;
+border-top-right-radius: 30%;
+border-bottom-left-radius: 30%;
+color: #fff;
+}
+ #navi{
+background-image: url(../image/22j7-6.jpg);
+}
+article{
+display: flex; /*ทำการประกาศใช้รูปแบบ flex เพื่อจัดการตำแห่นง element ที่อยู่ภายใน*/
+width: 85%;
+flex-direction: column;
+}
+#vv{
+display: flex; /*ทำการประกาศใช้รูปแบบ flex เพื่อจัดการตำแห่นง element ที่อยู่ภายใน*/
+width: 30%;
+border-left: 15px solid rgba(255, 255, 255, 0.15);
+border-bottom-left-radius:20%;
+border-top-left-radius: 20%;
+align-content: center;
+background:rgba(100, 99, 99, 0.17);
+margin-top:47%;
+margin-bottom:10%;
+
+}
+footer{
+background-color: rgba(144, 238, 144, 0.33);
+border-radius: 70%;
+}
+p{
+text-align: center;
+}
+.topic{
+width: 85;
+color: #d0caca;
+border-top-right-radius:7%;
+border-top: 15px solid rgba(168, 241, 247, 0.25) ;
+border-bottom: 15px solid rgba(168, 241, 247, 0.25);
+border-bottom-left-radius:7%;
+}
+#nav1 a:hover,a:active {
+    color: #000;
+    background-color: rgba(195, 195, 195, 0.32);
+   }
+
+section{
+    margin: 20px 0px;
+    padding: 30px 20px 30px 20px;
+    border-right: 10PX;
+}
+#lh{
+width: 50%;    
+}
+#navim{
+width:9%;
+}    
+body > main > article > section{
+    background-color:rgba(67, 66, 66, 0.75);
+}  
+body > main > article > section:nth-child(1) > h2{ /*เลือกที่ลูกตัว 1 เท่านั้น*/
+    color:#fff;
+}  
+#h{
+text-align: left;
+font-family: cursive;
+} 
+h2{
+transform:translate(50px); /*กำหนดตำแหน่งของข้อความ*/
+}
+.f1{
+background-image: url(../image/yy.jpg); /*กำหนดภาพพื้นหลังโดยการใส่ url*/
+border: 2px solid #fff ;
+border-radius: 8%; 
+-webkit-box-shadow: 2px 2px 4px rgba(0,0 ,0,0.3); /*เอนจินที่ใช้ในการแสดงผลเว็บแบบโอเพนซอร์ส ใช้ใน
+Safari และ Chrome */
+-moz-box-shadow: 2px 2px 4px rgba(0,0 ,0,0.3); /*เอนจินที่ใช้ในการแสดงผลเว็บแบบโอเพนซอร์ส ใช้ใน
+Safari และ Chrome */
+display: block;
+padding: 5px;
+float: right;
+text-align: center;
+margin: 20px 20px 50px 50px;
+transform: rotate(10deg); /*กำหนดให้มีการเอียงตัวของ figure*/
+}
+#s1 {
+padding:0px;
+}    
+}
+#h{
+text-indent: 5%; /*กำหนดการย่อหน้า*/
+}
+#h:first-letter{ /*การเจาะจงไปที่ตัวอักษรตัวแรกใน element  ที่มีattribute id=h*/
+font-size: 300%;
+color: rgba(149, 243, 255, 0.5);
+}
+#vv{
+display: flex; /*ทำการประกาศใช้รูปแบบ flex เพื่อจัดการตำแห่นง element ที่อยู่ภายใน*/
+flex-direction: column;
+
+}
+#vc{
+border-left: 10px solid rgba(134, 248, 0, 0.31);
+border-top-left-radius: 20%;
+border-bottom-left-radius: 20%;
+width: 100%;
+margin-left:2%;
+}
+
+#vv > figure > figcaption
+{
+color: rgba(0, 242, 252, 0.79);
+font-weight: 600;
+font-family: cursive;
+}
+#vv > figure > figcaption:first-letter{ /*การเจาะจงไปที่ตัวอักษรตัวแรกใน figcaption ที่อยู่ภายใน element figure */
+font-size: 200%; /*เพิ่มขนาดของตัวักษรตัวแรกเป็น 200%*/
+color: rgba(251, 149, 255, 0.5);
+}
+#oo{
+width:1120px;
+height:450px;
+}

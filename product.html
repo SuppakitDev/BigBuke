@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--ต้้งค่าใหขนาดของวิวพอร์ตน้้นมีขนาดเท่ากับ device-width-->
+        <meta charset="utf-8"  />
+        <title>BIGBIKE PRODUCT</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/product_page.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img id="himg" src="image/h11.gif"></a>
+            
+        </header>
+         <nav id="navi">
+                <ul>
+					<!--เป็นการฝังรูปภาพลงไปใน element li หมายถึงสามารถคลิกที่รูปเพื่อลิงค์ไปยังหน้าอื่น-->
+                <li  id="nav1"><a href="index.html"><img src="image/N1.gif" id="navim"></a></li>
+                <li  id="nav1"><a href="BIGBIKENEW.html"><img src="image/N2.gif" class="nn2" id="navim"></a></li>
+                <li  id="nav1"><a href="product.html"><img src="image/N4.gif" class="nn3" id="navim"></a></li>
+                    <li nav id="nav1"><a href="PRICE.html"><img src="image/N5.gif" id="navim"></a></li>
+                                    <li nav id="nav1"><a href="connec.html"><img src="image/N3.gif" id="navim"></a></li>
+                </ul>
+            </nav>
+        <main>
+            <article>
+                <section >
+                    <h3 id="g1">GALLERY</h3>
+                 <div id="gallery">
+    <p class="image-sub">
+        
+        <a class="show-image" href="#">
+        <img src="image/product/110314-2015-yamaha-yzf-r1m-action-02.jpg"/>
+            <span><img src="image/product/110314-2015-yamaha-yzf-r1m-action-02.jpg"/></span>
+            
+        </a>
+         
+        <a class="show-image" href="#">
+        <img src="image/product/1382409788.jpg"/>
+            <span><img src="image/product/1382409788.jpg"></span>
+            
+        </a>
+              
+        <a class="show-image" href="#">
+        <img src="image/product/1383622022-2014HondaC-o.jpg"/>
+            <span><img src="image/product/1383622022-2014HondaC-o.jpg"/></span>
+            
+        </a>
+                  
+        <a class="show-image" href="#">
+        <img src="image/product/2012_bmw_s1000rr_hp4_17.jpg"/>
+            <span><img src="image/product/2012_bmw_s1000rr_hp4_17.jpg"/></span>
+            
+        </a>
+                    
+        <a class="show-image" href="#">
+        <img src="image/product/2014-MV-Agusta-F4-RR_15.jpg"/>
+            <span><img src="image/product/2014-MV-Agusta-F4-RR_15.jpg"/></span>
+            
+        </a>
+          
+                
+        <a class="show-image" href="#">
+        <img src="image/product/big-bike-clothing-how-to-choose-03.jpg"/>
+            <span><img src="image/product/big-bike-clothing-how-to-choose-03.jpg"/></span>
+            
+        </a>
+        
+         <a class="show-image" href="#">
+        <img src="image/product/dwud1.jpg"/>
+            <span><img src="image/product/dwud1.jpg"/></span>
+            
+        </a>
+
+        
+         <a class="show-image" href="#">
+        <img src="image/product/INDIAN-CHIEF-CLASSIC.jpg"/>
+            <span><img src="image/product/INDIAN-CHIEF-CLASSIC.jpg"/></span>
+            
+        </a>
+        
+         <a class="show-image" href="#">
+        <img src="image/product/KTM-1290-Super-Duke-2014-10-700x465.png"/>
+            <span><img src="image/product/KTM-1290-Super-Duke-2014-10-700x465.png"/></span>
+            
+        </a>
+        
+         <a class="show-image" href="#">
+        <img src="image/product/ninja-h2r-2.jpg"/>
+            <span><img src="image/product/ninja-h2r-2.jpg"/></span>
+            
+        </a>
+        
+         <a class="show-image" href="#">
+        <img src="image/product/yamaha-r1-concept-by-jacusa-design-3.jpg"/>
+            <span><img src="image/product/yamaha-r1-concept-by-jacusa-design-3.jpg"/></span>
+             </a>
+        </p>
+        
+     </div>
+                 </div>
+                </section>
+                <section class="topic">
+                    <h3 id="h1">SPEC OF MOTORBIKE press select.......</h1>
+                    <p class="js" id="p1"></p>
+				</section>
+
+            
+            </article>
+           <aside id="vv1">
+                <nav id="nav2">
+                    <ul id="uu" >
+                         <h3>B.PREVIEW</h3>
+                        <li class="tp" ><a href="#">HONDA</li>
+                            <ul>
+								<!--สร้างปุ่มเพื่อทำการใช้เป็นตัวสร้าง event และแสดงข้อมูลโดยใช้ function -->
+                                <li><button CLASS="btn" onclick="R1()">CBR 1000RR </button></li>
+                                <li><button CLASS="btn" onclick="R2()">CB 1000  </button></li>
+                                <li><button CLASS="btn" onclick="R3()">CBR 650 F </button></li>
+                                <li><button CLASS="btn" onclick="R4()">CB 650 F </button></li>
+                                <li><button CLASS="btn" onclick="R5()">CB 500 F </button></li>
+                            </ul> 
+                        <li  class="tp"><a href="#">YAMAHA</li>
+                            <ul>
+								<!--สร้างปุ่มเพื่อทำการใช้เป็นตัวสร้าง event และแสดงข้อมูลโดยใช้ function -->
+                                    <li><button CLASS="btn" onclick="y1()">YZF-R1 </button></li>
+                                <li><button CLASS="btn" onclick="y2()">FZ1</button></li>
+                                <li><button CLASS="btn" onclick="y3()">FZ-09</button></li>
+                                <li><button CLASS="btn" onclick="y4()">BOLT-r spec </button></li>
+                                <li><button CLASS="btn" onclick="y5()">YZF-r3 </button></li>
+                             
+           </ul> 
+                             <li  class="tp"><a href="#">KAWASAKI</li>
+                            <ul>
+								<!--สร้างปุ่มเพื่อทำการใช้เป็นตัวสร้าง event และแสดงข้อมูลโดยใช้ function -->
+                                <li><button CLASS="btn" onclick="k1()">H2r </button></li>
+                                <li><button CLASS="btn" onclick="k2()">Z1000</button></li>
+                                <li><button CLASS="btn" onclick="k3()">ER6N </button></li>
+                                <li><button CLASS="btn" onclick="k4()">Z800 </button></li>
+                                <li><button CLASS="btn" onclick="k5()">Ninja 650 </button></li>
+                                
+                            </ul> 
+                    </ul>
+                </nav>
+            </aside>  
+         </main>
+            <footer>
+                <p>By S.Suppakit credit|photoby:http://photobucket.com/images/big%20bike|video by:www.youtube</p> 
+<!--เป็นในส่วนของผู้สร้าง และให้ creaditสำหรับ รูปภาพ และวีดีโอ-->
+            </footer>
+	<!--ลิงค์ไฟล์ js เข้ามาใช้งาน ใส่ในช่วงท้ายของเอกสารเพื่อให้สามารถโหลดเอกสาร html ได้ก่อน-->
+    <script src="js/databike.js"></script>
+       </body>
+</html>    
+    

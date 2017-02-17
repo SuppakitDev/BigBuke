@@ -1,0 +1,148 @@
+/*ขออนุญาติอภัยนะครับ  css แบบใด่ที่อธิบายไปแล้วในไฟล์อื่น ขออนุญาติไม่คอมเม้นนัครับอาร์จารย์*/
+main{ /*เป็น selector เพื่อเลือก main element ที่อยู่ใน html */
+display: flex; /*ทำการประกาศใช้รูปแบบ flex เพื่อจัดการตำแห่นง element ที่อยู่ภายใน element main*/
+}
+.nn3{ /*เลือกกระทำไปที่ตัว li ซึ่งประกาศ attribute class ไว้คือ nn3*/
+border-bottom: 5px solid rgba(11, 253, 225, 0.46); /*เป็นการกำหนดขนาดและสีของกรอบด้านล่าง ให้ความหนา 5px*/
+border-radius: 20%; /*กำหนดให้ตัว border มีความโค้งโดยสามารถกำหนดรัศมีได้ในที่นี้คือ 20%*/
+}
+#gallery img { /*เลือก element ที่มีattribute id=galley และเลือก element img ที่อยู่ข้างใน*/
+	border: 1px solid #000000; /*กำหนดขนาดและ สีของกรอบ*/
+    background-color: #000000; /*กำหนดให้สีbackground*/
+    
+}
+p.image-sub { /*เลือก element p ที่มีattribute class=image-sub*/
+    display:flex; /*ทำการประกาศใช้รูปแบบ flex เพื่อจัดการตำแห่นง element ที่อยู่ภายใน element main*/
+    width: 90%;
+    height: 2%;
+}
+a.show-image { /*เลือก element a ที่มีattribute class=show-image*/
+    text-decoration: none; /*กำหนดให้เส้นใต้สำหรับลิงค์หายไป*/
+    
+}
+a.show-image img { /*เลือก element a ที่มีattribute class=show-image และเลือกที่ element img ที่อยู่ด้านใน*/
+   height: 100PX; /*กำหนดความสูงของรูปที่แสดงในที่นี้กำหนดให้เป็น px เนื่องจากแต่ละรูปมีขนาดต่างกันแต่ต้องการให้แสดงขนาดเท่ากันจึงใช้ px แทน %*/
+    }
+a.show-image span { /*เลือก element a ที่มีattribute class=show-image และเลือกที่ element span ที่อยู่ด้านใน*/
+    left: -10000px; /*กำหนดตำแหน่งการแสดงผลจากด้านซ้าย -10000 ซึ่งจะไม่แสดงในหน้าจอ*/
+    position: absolute; /*กำหนดให้แสดงผลออกมาแบบอิสระ*/
+    }
+a.show-image:hover { /*กำหนดการแสดงผลที่ element a ที่มีattribute class=show-image เมื่อมีเมาส์มาชี้*/
+    background-color: transparent; /*กำหนดสีของ background เป็นแบบโปร่งแสง*/
+}
+.show-image:hover span, .show-image span img { /*กำหนดการแสดงผลที่ element a ที่มีattribute class=show-image เมื่อมีเมาส์มาชี้*/
+    left: 46%; /*กำหนดระยะจากทางซ้าย*/
+    top: 10%; /*กำหนดระยะจากด้านบน*/
+    width: 60%;
+    height:65%;
+    border-radius: 30%;
+
+}
+#vv1{  /*เป็น selector เพื่อเลือก element ที่มีattribute id=vv1 */
+width: 20%;
+border-left: 15px solid rgba(255, 255, 255, 0.15); /*กำหนดความหน้าและสีของกรอบด้านซ้าย*/
+border-bottom-left-radius:20%; /*กำหนดส่วนโค้งของมุมล่างซ้าย*/
+border-top-left-radius: 20%; /*กำหนดส่วนโค้งของมุมบนซ้าย*/
+align-content: center; /*จัดเนื้อหาด้านในให้อยู่ตรงกลาง*/
+background:rgba(100, 99, 99, 0.17);
+}
+ #nav2 > ul > h3{/*เลือก element ที่มีattribute id=nav2 และเลือกelement ul ตัวแรกของ element นั้น และเลือก element h3 ที่เป็นลูกของ element ul*/ 
+color: #b5afaf; /*กำหนดสีของตัวอักษร*/
+font-family: cursive; /*กำหนดรูปแบบfont*/
+font-weight: 700; 	/*กำหนดความหนาของตัวอักษร*/
+ }
+#g1{ /*เป็น selector เพื่อเลือก element ที่มีattribute id=g1 */
+font-size:200%; /*กำหนดขนาดของตัวอักษร*/
+color:rgba(255, 255, 255, 0.38);
+font-family:cursive, sans-serif, serif;
+margin-top: 0%; /*กำหนดพื้นที่ว่างด้านบน element ที่ทพการ select*/
+padding-top: 0%; /*กำหนดพื่นที่ว่างด้านบนข้างในกรอบระหว่างเนื้อหาด้านในและกรอบ */
+}
+#uu li { /*เป็น selector เพื่อเลือก element ที่มีattribute id=uu และเลือกelement li */
+    position: relative;/*เป็นการแสดงผลในจุดๆที่ elementนั้นๆอยู่*/
+}
+#uu{
+display: flex;
+flex-direction: column; /*กำหนดให้ item ด้านในจัดเรียงเป็นแถวในแนวตั้ง*/
+}
+
+#demo{ 
+color:#000;
+font-size:140%;
+border: 1px solid #fff; 
+text-align: left; /*กำหนดให้ข้อความใน element นั้นจัดเรียงชิดซ้าย*/
+}
+.js{ 
+text-align: left;
+}
+#h1:first-letter{ /*เป็น selector เพื่อเลือก element ที่มีattribute id=h1 โดยเลือกกระทำที่ตัวอักษรตัวแรกของข้อความที่อยู่ใน element นั้น */
+font-size: 200%; /*เพิ่มขนาดของตัวอักษรตัวแรก*/
+color: rgba(255, 2, 2, 0.5);
+}
+#h1{
+font-family:cursive, sans-serif, serif;
+}
+#p1{
+font-family:cursive, sans-serif, serif;
+text-indent: 5%; /*การกำหนดย่อหน้าของข้อความ*/
+}
+.btn{ 
+background-color: rgba(123, 124, 121, 0.4);
+border: 0px;border-radius: 20%;
+font-family: cursive, sans-serif ,serif;
+font-weight: 400;
+color: #fff;
+}
+#nav2 ul{
+list-style: none; /*กำหนดสไตล์ ในที่นี้คือ none คือไม่ต้องแสดง*/
+}
+.tp{
+font-family:cursive, sans-serif, serif;
+font-weight: 800;
+}
+/*Break Point กำหนดว่าเมื่อมีขนาดการแสดงผลยังไม่เกิน 1094px ให้ทำงานตามด้านใน*/
+@media only screen and (max-width:1094px) {
+main{
+flex-direction: column; /*เปลี่ยนการการเลียง flex item ให้เป็นแบบ colum*/
+}	
+body {
+    width: 100%; 	/*ใส่ขนาดเป็น 100%*/
+}
+#uu{
+flex-direction:row; /*เปลี่ยนการการเลียง flex item ให้เป็นแบบ row*/
+flex-wrap: wrap; /*กำหนดให้ flex item ย้ายตำแหน่งเมื่อ ขนาดถูกปรับเปลี่่ยน*/
+}
+#vv1{
+width: 90%;
+}
+ #nav2 > ul > h3{ 
+font-size: 0%; /*กำหนดให้ข้อความใน element หายไปเพื่อการแสดงผลที่เหมาะสม*/
+ }
+}
+/*Break Point กำหนดว่าเมื่อมีขนาดการแสดงผลยังไม่เกิน 974px ให้ทำงานตามด้านใน*/
+@media only screen and (max-width:974px) {
+a.show-image img { /*select ไปยัง รูปภาพในgelley */
+   height: 50PX; /*ปรับขนาดความสูงของรูปภาพให้เหมาะสมกับจอแสดงผล*/
+    }
+.show-image:hover span, .show-image span img {
+    left: 46%;
+    top: 20%;
+    width: 60%;
+    height:65%;
+	/*ปรับตำแหน่งการแสดงผลโดยการกำหนดระยะจากด้านซ้ายและด้านบน*/
+  }
+#g1{
+font-size:100%; 
+}
+}
+/*Break Point กำหนดว่าเมื่อมีขนาดการแสดงผลยังไม่เกิน 450px ให้ทำงานตามด้านใน*/
+@media only screen and (max-width:450px) {
+a.show-image img {
+   height: 30PX; /*ปรับขนาดความสูงของรูปภาพให้เหมาะสมกับจอแสดงผล*/
+    }
+}
+@media only screen and (max-width:450px) {
+#himg{
+width: 50%;/*ลดขนาดLOGO ลงเป็น 50%*/
+}
+}

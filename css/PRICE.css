@@ -1,0 +1,45 @@
+/*ขออนุญาติอภัยนะครับ  css แบบใด่ที่อธิบายไปแล้วในไฟล์อื่น ขออนุญาติไม่คอมเม้นนัครับอาร์จารย์*/
+#timg{
+margin-left: 4%;
+margin-right: 4%;
+border: 5px solid;
+border-left: 10px solid rgba(255, 255, 255, 0.19);	
+border-top-left-radius: 5%;
+}
+article{
+display: flex;
+width: 100%;
+flex-direction: column;
+}
+.tb{
+width: 20%;
+text-align: center; /*กำหนดให้ข้อความใน element อยู่ตรงกลาง*/
+font-family: cursive, sans-serif, serif, monospace;
+color: rgba(219, 248, 97, 0.51);
+font-weight: 700;
+}
+.tm{
+/*width: 40%;*/
+}
+#th{
+font-family: cursive, sans-serif, serif, monospace;
+color: #fff;
+}
+.col:first-letter{ /*การเลือกเจาะจงไปที่ตัวอักษรตัวแรก*/
+font-size: 200%;
+color: rgba(149, 198, 255, 0.5);
+}
+h3{
+font-family: cursive, sans-serif, serif, monospace; /*การเพิ่มfontในกรณีสำรองหากfontที่กำหนดไม่มีก็จะใช้ตัวถัดไป*/
+font-size: 350%;
+color: rgba(255, 255, 255, 0.43);
+}
+.nn4{
+border-bottom: 5px solid rgba(11, 253, 225, 0.46);  
+border-radius: 20%;
+}
+.img{
+width: 100%;
+}
+
+

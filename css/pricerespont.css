@@ -1,0 +1,42 @@
+@media only screen and (max-width:1047px) {
+h3{
+font-size: 150%;
+}
+}
+@media only screen and (max-width:740px) {
+#dd{
+white-space: nowrap;
+font-size: 0%;
+border-color: transparent;
+}
+#rr{
+width: 500%;
+}
+}
+
+@media only screen and (max-width:530px) {
+#ss{
+font-size: 0%;
+border-color: transparent;
+}
+#rr{
+width: 500%;
+}
+#dc{
+font-size: 0%;
+border-color: transparent;
+}
+#navi{
+width: 150%;
+}
+	body {
+  
+    padding:0%;
+    padding-right: 0%;
+
+}
+#himg{
+width: 50%;
+}
+}
+

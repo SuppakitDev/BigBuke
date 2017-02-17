@@ -1,0 +1,21 @@
+@media only screen and (max-width:1222px) {
+aside{ 
+display: flex;
+flex-direction: column; 
+}
+/*ในส่วนของการทำงานข้างบนเป็นการปรับ aside โดยใช้ flex model เข้ามาช่วย โดยการปรับให้มีการเปลี่ยนตำแหน่งของ aside ออกเป็น 2 ส่วน และแสดงผลในแนวตั้ง คือ column*/
+}
+@media only screen and (max-width:1352px) {
+ul{
+flex-direction: column;
+}
+}
+@media only screen and (max-width:470px) {
+nav{
+    background-image: url(../image/777.jpg); /*เมื่อถึงBreakpoint ที่กำหนดทำการเปลี่ยนรูปภาพพื้นหลังใหม่*/
+    background-size: 130%;
+}
+    body > header > a > img{
+width:100%;
+}
+}

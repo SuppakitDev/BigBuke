@@ -1,0 +1,100 @@
+/*Break Point กำหนดว่าเมื่อมีขนาดการแสดงผลยังไม่เกิน 822px ให้ทำงานตามด้านใน*/
+@media only screen and (max-width:822px) {
+body > main > article > section:nth-child(2) > figure{
+width: 40%; /*ลดขนาดของกรอบของ figure*/
+}
+body > main > article > section:nth-child(2) > figure > img{
+width: 100%;
+}
+}
+/*Break Point กำหนดว่าเมื่อมีขนาดการแสดงผลยังไม่เกิน 1240px ให้ทำงานตามด้านใน*/
+@media only screen and (max-width:1240px) {
+#oo{ /*เลือกไปที่ element iframe ที่มี attibute id=oo */
+width:1000px; /*ลดขนาดความกว้างของการแสดงผลวิดีโอ*/
+height:450px; /*ลดขนาดความสูงของการแสดงผลวิดีโอ*/
+}
+}
+@media only screen and (max-width:1110px) {
+#oo{
+width:925px;
+height:450px;
+}
+}
+@media only screen and (max-width:1026px) {
+#oo{
+width:855px;
+height:450px;
+}
+}
+@media only screen and (max-width:953px) {
+#oo{
+width:795px;
+height:450px;
+}
+
+main{
+flex-direction: column; /*ปรับการแสดงผลของ flex item จาก row เป็น column*/
+}
+
+article{
+width: 100%; /*เพิ่มความกว้าง element เป็น 100%*/
+}
+#vv{
+display: flex;
+flex-wrap: wrap; /*เป็นการกำหนดให้มีการเปลี่ยนตำแหน่งของ flex item เมื่อมีการปรับขนาดจอแสดงผล*/
+margin-top: 0%;
+margin-bottom: 0%;
+width: 100%;
+flex-direction: row;
+}
+#vc{
+width: 70%;
+}
+}
+@media only screen and (max-width:886px) {
+#oo{
+width:735px;
+height:450px;
+}
+}
+@media only screen and (max-width:820px) {
+#oo{
+width:690px;
+height:450px;
+}
+}
+@media only screen and (max-width:756px) {
+#oo{
+width:590px;
+height:350px;
+}
+}
+@media only screen and (max-width:650px) {
+#oo{
+width:490px;
+height:300px;
+}
+}
+@media only screen and (max-width:540px) {
+#oo{
+width:350px;
+height:200px;}
+.f1{
+margin: 0%;
+}
+#himg{
+width: 50%;
+}
+#hs{
+font-size: 100%;
+transform:translate(0px);
+}
+}
+
+@media only screen and (max-width:321px) {
+#oo{
+width:290px;
+height:200px;
+}
+}
+/*ขออนุญาตินะครับในส่วนที่มีการทำงานในลักษณะเดิมขออนุญาติไม่คอมเม้นนะครับ*/

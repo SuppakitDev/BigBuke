@@ -1,0 +1,75 @@
+/*ขออนุญาติอภัยนะครับ  css แบบใด่ที่อธิบายไปแล้วในไฟล์อื่น ขออนุญาติไม่คอมเม้นนัครับอาร์จารย์*/
+
+body{ /*เป็น selector เพื่อเลือก body element ที่อยู่ใน html */
+background-repeat: no-repeat; /*กำหนดให้ background ที่มีภาพขนาดเล็กไม่ให้แสดงซ้ำ*/
+background-color: #000;
+flex-direction: column;
+background-size: cover; /*กำหนดให้ขนาดของภาพ background มีอัตราส่วนย่อขยายตามขนาดหน้าจอแสดงผล*/
+width:80%;
+margin-left:10%; /*กำหนดระยะห่างจากขอบด้านซ้าย*/
+margin-right:10%; /*กำหนดระยะห่างจากขอบด้านขวา*/
+}
+li{
+width:100%;
+}
+nav{
+    width:80%;
+    margin-left:8.5%;
+    margin-right:10%;
+    background-image: url(../image/777.jpg); /*เพิ่มbackground ลงใน element nav */
+    background-repeat: no-repeat;  /*กำหนดให้ background ที่มีภาพขนาดเล็กไม่ให้แสดงซ้ำ*/
+    background-size: cover;  /*กำหนดให้ขนาดของภาพ background มีอัตราส่วนย่อขยายตามขนาดหน้าจอแสดงผล*/
+    padding-top:40%;
+}
+ul{
+    display: flex;
+    padding-right: 32%; /*กำหนดระยะห่างระหว่างกรอบกับเนื้อหา*/
+    padding-left: 32%;
+    list-style: none;
+    text-align: center; 
+   
+    }
+#nav1 a:link,a:visited {
+    display: block;
+    text-align: center;
+    display: inline;
+    font-size: 130%;
+    color:#9ca09e;
+    font-family:monospace; /*กำหนดรูปแบบการแสดงผลตัวอักษร*/
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    text-decoration: none; /*กำหนดให้ไม่มีเส้นใต้*/
+    }
+#nav1 a:hover , a:active { 
+    color: rgba(222, 221, 221, 0.41);
+}
+aside{
+display:flex;
+margin-top: 2.5%;
+margin-left: 10%;
+margin-right: 10%;
+}
+#lp1{
+width: 100%;    
+}
+#lp1:hover,#lp1:active { /*เมื่อมีเมาส์มาชี้ให้แสดงผลตามด้านใน*/
+background-color: rgba(238, 244, 238, 0.35);
+border-radius: 20px;
+}
+}
+body > main > nav{
+margin-top: 0%; 
+}
+footer{
+color: #46f2e5;
+text-align: center;
+background-color: rgba(255, 234, 234, 0.11);
+border-radius: 100%;
+}
+div{
+display: flex; /*กำหนดให้การแสดงผลเป็นแบบ flex เพื่อจัดตำแหน่งของ element ภายใน*/
+}
+body > header > a > img{ /*เลือกไปที่ภาพที่อยู่ใน element body*/
+    width:25%; 
+}

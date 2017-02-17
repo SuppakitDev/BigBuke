@@ -1,0 +1,81 @@
+/*ขออนุญาติอภัยนะครับ  css แบบใด่ที่อธิบายไปแล้วในไฟล์อื่น ขออนุญาติไม่คอมเม้นนัครับอาร์จารย์*/
+@media only screen and (max-width:960px) {
+nav{
+margin-top: 5%;
+flex-direction:row;}
+li{
+width:30%;
+}
+body > header > p{
+    margin:0px;
+    font-size:200%;
+}
+/*Break Point กำหนดว่าเมื่อมีขนาดการแสดงผลยังไม่เกิน 728px ให้ทำงานตามด้านใน*/
+@media only screen and (max-width:728px) {
+header{ /*เลือกที่ element header*/
+display: flex;
+flex-direction: column; 
+}
+}
+@media only screen and (max-width:628px) {
+nav{
+margin-top: 5%;
+flex-direction:column;}
+li{
+font-size: 50%;
+color: #fff;
+list-style: none;
+width:50%;
+padding-left: 20%;
+}
+body > header > p{
+	padding-top: 5%;
+    width:40%;
+    margin:0px;
+    font-size:170%;
+    border-bottom: 5px solid;
+	border-radius:10%;
+    background-color: rgba(181, 178, 118, 0.12);
+}
+}
+@media only screen and (max-width:510px) {
+body > header > p{
+    width:60%;
+	font-size:150%;}
+	
+#ac2{
+width: 0%;
+font-size: 0%
+	}
+#ac1{
+width:60%;
+}
+.con{
+width: 20%;
+padding-top: 5%;
+padding-left:14%;
+}
+li{
+margin-top: 5%;
+font-size: 50%;
+color: #fff;
+list-style: none;
+width:50%;
+padding-left: 20%;
+}
+main{
+padding-top: 5%;
+padding-left:22%;
+}
+div{
+padding-left: 22%;
+}
+footer{
+font-size: 90%;
+width: 30%;
+margin-right:39%;
+padding-left: 7%;
+margin-left: 27%;
+}
+}
+
